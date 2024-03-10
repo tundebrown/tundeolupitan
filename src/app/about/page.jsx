@@ -231,7 +231,7 @@ const AboutPage = () => {
                     Fullstack developer
                   </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
+                  <div className="p-1 text-sm italic">
                     I was responsible for designing, developing, and maintaining
                     both the frontend and backend of web applications. I worked
                     majorly with javascript and typescript programming
@@ -281,7 +281,7 @@ const AboutPage = () => {
                     Backend Developer
                   </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
+                  <div className="p-1 text-sm italic">
                     I spearheaded backend application development using php
                     programming language and leveraging laravel framework for
                     optimal solutions.{" "}
@@ -305,7 +305,7 @@ const AboutPage = () => {
                     Freelancer{" "}
                   </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
+                  <div className="p-1 text-sm italic">
                     I provided web solutions, applying a range of technologies
                     to address client requirements on upwork and freelancer.{" "}
                   </div>
