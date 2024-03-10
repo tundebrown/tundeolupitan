@@ -10,7 +10,7 @@ const items = [
     color: "from-purple-950 to-indigo-800",
     title: "Anarchy Game Website",
     tools: "Three.js, Framer-motion, Next.js",
-    desc: "Step into the vibrant universe of Anarchy, a leading mobile game development powerhouse. As part of this exhilarating project, I had the privilege to craft an immersive website experience that transports users into a kaleidoscopic galaxy adventure. Leveraging the power of Three.js and framer-motion, I brought this captivating world to life, seamlessly blending stunning 3D objects and characters to create an interactive galaxy like experience. From swirling nebulae to intricately detailed celestial bodies, every element of the website pulsates with the energy and excitement that defines the Anarchy gaming ethos.",
+    desc: "Anarchy is a gaming company. As part of this exhilarating project, I had the privilege to craft an immersive website experience that transports users into a galaxy adventure. Leveraging the power of Three.js and framer-motion, I brought this captivating world to life, seamlessly blending stunning 3D objects and characters to create an interactive galaxy like experience. From swirling nebulae to intricately detailed celestial bodies, every element of the website pulsates with the energy and excitement that defines the Anarchy gaming ethos.",
     img: "/anarchy_project.PNG",
     link: "#",
   },
@@ -84,7 +84,7 @@ const PortfolioPage = () => {
                   <div className="relative w-100 h-56 md:w-96 md:h-64 lg:w-[600px] lg:h-[350px] xl:w-[800px] xl:h-[420px]">
                     <Image src={item.img} alt="" fill />
                   </div>
-                  <p className="w-100 md:w-96 lg:w-[600px] lg:text-xs xl:w-[800px]">
+                  <p className="w-100 text-sm md:w-96 lg:w-[600px] lg:text-xs xl:w-[800px]">
                     {item.desc}
                   </p>
                   <p className="w-100 md:w96 lg:w-[600px] lg:text-md xl:w-[800px]">
