@@ -66,7 +66,7 @@ const PortfolioPage = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-[600vh] relative" ref={ref}>
-        <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center text-white bg-cover bg-no-repeat bg-[url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?w=1480&t=st=1710059529~exp=1710060129~hmac=be1bbb2a22f632bae08b69463c5dbac5d6ad357b1259da16a1425ec3cf249ed5')]">
+        <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center text-white bg-cover bg-no-repeat bg-[url('/portfolio_bg.jpg')]">
           My Works
         </div>
         <div className="sticky top-0 flex gap-0 xl:gap-4 items-center overflow-hidden">
