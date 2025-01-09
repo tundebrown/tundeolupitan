@@ -20,7 +20,7 @@ const items = [
     title: "Upgraded Anarchy Game Website",
     tools: "Webflow",
     desc: "Anarchy is a gaming company. As part of this exhilarating project, I had the privilege to craft an immersive website experience that transports users into a galaxy adventure. Leveraging the power of Three.js and framer-motion, I brought this captivating world to life, seamlessly blending stunning 3D objects and characters to create an interactive galaxy like experience. From swirling nebulae to intricately detailed celestial bodies, every element of the website pulsates with the energy and excitement that defines the Anarchy gaming ethos.",
-    img: "/anarchy_project2.PNG",
+    img: "/anarchy_project2.png",
     link: "#",
   },
   {
@@ -29,7 +29,7 @@ const items = [
     title: "Wallet Redeeming Web App",
     tools: "Next.js, Nestjs, Mongodb, Material UI",
     desc: "Users coin redeeming platform",
-    img: "/redeem.PNG",
+    img: "/redeem.png",
     link: "#",
   },
   {
@@ -38,7 +38,7 @@ const items = [
     title: "Investor Platform",
     tools: "Next.js, Nestjs, Mongodb, Material UI, web3js",
     desc: "Investor platform where investors of the token can redeem their coin to their specified wallet",
-    img: "/investor.PNG",
+    img: "/investor.png",
     link: "#",
   },
   {
@@ -65,7 +65,7 @@ const items = [
     title: "Upgraded Reporting Tool",
     tools: "Mongodb, Nestjs, Nextjs, Material UI",
     desc: "As a key architect of this innovative solution, I led the development of a dynamic platform designed to simplify data analysis and leverage data from a database. The Reporting Tool offers a captivating and user-friendly interface, empowering stakeholders to dive deep into game performance metrics, player behavior insights, and revenue trends. Using cutting-edge technologies and advanced data visualization techniques, I crafted a tool that not only simplifies reporting but also enables data-driven decision-making and strategic planning.",
-    img: "/reporting_tool_project2.PNG",
+    img: "/reporting_tool_project2.png",
     link: "#",
   },
   {
