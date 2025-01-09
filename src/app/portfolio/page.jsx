@@ -61,24 +61,15 @@ const items = [
   },
     {
     id: 7,
-    color: "from-sky-800 to-orange-300",
+    color: "from-purple-950 to-indigo-800",
     title: "Upgraded Reporting Tool",
     tools: "Mongodb, Nestjs, Nextjs, Material UI",
     desc: "As a key architect of this innovative solution, I led the development of a dynamic platform designed to simplify data analysis and leverage data from a database. The Reporting Tool offers a captivating and user-friendly interface, empowering stakeholders to dive deep into game performance metrics, player behavior insights, and revenue trends. Using cutting-edge technologies and advanced data visualization techniques, I crafted a tool that not only simplifies reporting but also enables data-driven decision-making and strategic planning.",
     img: "/reporting_tool_project2.png",
     link: "#",
   },
-  {
+    {
     id: 8,
-    color: "from-orange-300 to-violet-950",
-    title: "Adcrack",
-    tools: "wordpress",
-    desc: "As a driving force behind this dynamic venture, I played a pivotal role in shaping our multi-faceted approach to supporting businesses of all sizes. Our start-up's mission is to empower organizations to thrive in today's competitive landscape by providing tailored solutions that span the entire spectrum of business needs. From developing cutting-edge software solutions to optimizing human capital strategies, from crafting innovative marketing campaigns to managing financial resources with precision.",
-    img: "/adcrack_project.PNG",
-    link: "#",
-  },
-  {
-    id: 9,
     color: "from-violet-950 to-fuchsia-950",
     title: "FyzonX",
     tools: "framer CMS",
@@ -86,6 +77,16 @@ const items = [
     img: "/fyzonx_project.png",
     link: "#",
   },
+  {
+    id: 9,
+    color: "from-orange-300 to-violet-950",
+    title: "Adcrack",
+    tools: "wordpress",
+    desc: "As a driving force behind this dynamic venture, I played a pivotal role in shaping our multi-faceted approach to supporting businesses of all sizes. Our start-up's mission is to empower organizations to thrive in today's competitive landscape by providing tailored solutions that span the entire spectrum of business needs. From developing cutting-edge software solutions to optimizing human capital strategies, from crafting innovative marketing campaigns to managing financial resources with precision.",
+    img: "/adcrack_project.PNG",
+    link: "#",
+  },
+
 ];
 
 const PortfolioPage = () => {
