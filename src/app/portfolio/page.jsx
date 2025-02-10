@@ -7,6 +7,15 @@ import { useRef } from "react";
 const items = [
   {
     id: 1,
+    color: "from-indigo-800 to-sky-800",
+    title: "Lumind AI",
+    tools: "React Js, Node Js, Mongo DB, Gemini 2.0 flash model",
+    desc: "Lumind is an AI-powered conversational assistant similar to ChatGPT. It is designed to provide accurate and context-aware responses",
+    img: "/lumind_project.PNG",
+    link: "#",
+  },
+  {
+    id: 2,
     color: "from-purple-950 to-indigo-800",
     title: "Anarchy Game Website",
     tools: "Three.js, Framer-motion, Next.js",
@@ -15,7 +24,7 @@ const items = [
     link: "#",
   },
   {
-    id: 2,
+    id: 3,
     color: "from-purple-950 to-indigo-800",
     title: "Upgraded Anarchy Game Website",
     tools: "Webflow",
@@ -24,7 +33,7 @@ const items = [
     link: "#",
   },
   {
-    id: 3,
+    id: 4,
     color: "from-indigo-800 to-sky-800",
     title: "Wallet Redeeming Web App",
     tools: "Next.js, Nestjs, Mongodb, Material UI",
@@ -33,7 +42,7 @@ const items = [
     link: "#",
   },
   {
-    id: 4,
+    id: 5,
     color: "from-indigo-800 to-sky-800",
     title: "Investor Platform",
     tools: "Next.js, Nestjs, Mongodb, Material UI, web3js",
@@ -42,7 +51,7 @@ const items = [
     link: "#",
   },
   {
-    id: 5,
+    id: 6,
     color: "from-indigo-800 to-sky-800",
     title: "Application Tracking System",
     tools: "Next.js, Auth.js, Mongodb, Material UI",
@@ -51,7 +60,7 @@ const items = [
     link: "#",
   },
   {
-    id: 6,
+    id: 7,
     color: "from-sky-800 to-orange-300",
     title: "Reporting Tool",
     tools: "Mongodb, Express.js, React.js, Node.js(MERN Stack), Material UI",
@@ -60,7 +69,7 @@ const items = [
     link: "#",
   },
     {
-    id: 7,
+    id: 8,
     color: "from-purple-950 to-indigo-800",
     title: "Upgraded Reporting Tool",
     tools: "Mongodb, Nestjs, Nextjs, Material UI",
@@ -69,7 +78,7 @@ const items = [
     link: "#",
   },
     {
-    id: 8,
+    id: 9,
     color: "from-violet-950 to-fuchsia-950",
     title: "FyzonX",
     tools: "framer CMS",
@@ -78,7 +87,7 @@ const items = [
     link: "#",
   },
   {
-    id: 9,
+    id: 10,
     color: "from-orange-300 to-violet-950",
     title: "Adcrack",
     tools: "wordpress",
