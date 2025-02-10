@@ -11,7 +11,7 @@ const items = [
     title: "Lumind AI",
     tools: "React Js, Node Js, Mongo DB, Gemini 2.0 flash model",
     desc: "Lumind is an AI-powered conversational assistant similar to ChatGPT. It is designed to provide accurate and context-aware responses",
-    img: "/lumind_project.PNG",
+    img: "/lumind_project.png",
     link: "#",
   },
   {
