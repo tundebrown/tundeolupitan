@@ -4,20 +4,24 @@ export async function GET(req) {
   const { searchParams } = new URL(req.url);
   const image = searchParams.get('image');
 
-      if (!image || typeof image !== 'string') {
-      return res.status(400).send("Missing or invalid image parameter");
-    }
+  if (!image || typeof image !== 'string') {
+    return new Response("Missing or invalid image parameter", { status: 400 });
+  }
 
-    // Basic URL validation - only allow https URLs from trusted domains
-    const imageUrl = decodeURIComponent(image);
-    const trustedDomains = [
-      'res.cloudinary.com',
-    ];
-    
+  // Decode and validate the image URL
+  const imageUrl = decodeURIComponent(image);
+  const trustedDomains = [
+    'res.cloudinary.com',
+  ];
+
+  try {
     const url = new URL(imageUrl);
-    if (!url.protocol.startsWith('https') || 
-        !trustedDomains.some(domain => url.hostname.includes(domain))) {
-      return res.status(400).send("Invalid image URL");
+
+    if (
+      !url.protocol.startsWith('https') ||
+      !trustedDomains.some(domain => url.hostname.includes(domain))
+    ) {
+      return new Response("Invalid image URL", { status: 400 });
     }
 
     const html = `
@@ -41,13 +45,17 @@ export async function GET(req) {
       </html>
     `;
 
-  return new NextResponse(html, {
-    status: 200,
-    headers: {
-      'Content-Type': 'text/html',
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type',
-    },
-  });
+    return new NextResponse(html, {
+      status: 200,
+      headers: {
+        'Content-Type': 'text/html',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type',
+      },
+    });
+  } catch (err) {
+    return new Response("Malformed image URL", { status: 400 });
+  }
 }
+
